@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DB.iml" filepath="$PROJECT_DIR$/.idea/modules/DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RoomAllocation.iml" filepath="$PROJECT_DIR$/.idea/modules/RoomAllocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RoomAllocation-build.iml" filepath="$PROJECT_DIR$/.idea/modules/RoomAllocation-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restapi.iml" filepath="$PROJECT_DIR$/.idea/modules/restapi.iml" />
+    </modules>
+  </component>
+</project>
