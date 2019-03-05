@@ -17,14 +17,22 @@ object UserRoutes extends App with PlayJsonSupport {
   val userDBService = new UserDataDBService
 
   val route = {
-    path("register-user") {
+    get {
+      path("sign-in") {
+        parameters('name.as[String],'pass.as[String]) { (name,pass) => {
+          val user = userDBService.signInUser(name,pass)
+          complete(user.toString)
+         }
+        }
+      }
+    } ~ path("register-user") {
       (post & entity(as[UserRequest])) { userRequest =>
-        val userId = userDBService.addUsers(
+        val tokenId = userDBService.registerUsers(
           userRequest.name,
           userRequest.password,
           userRequest.email
         )
-        complete("done")
+        complete(TokenResponse(tokenId))
       }
     }
   }
