@@ -16,7 +16,8 @@ class UserDataDBService {
     import java.util.Calendar
     val calendar = Calendar.getInstance
     val token_gen = new Timestamp(calendar.getTime.getTime)
-    val token_exp = calendar.add(Calendar.MINUTE, 30)
+    calendar.add(Calendar.MINUTE, 30)
+    val token_exp = new Timestamp(calendar.getTime.getTime)
     withSQL {
       insert.into(UserData).values(name, password, email, token, token_gen, token_exp)
     }.update().apply()

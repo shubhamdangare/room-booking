@@ -16,7 +16,7 @@ object UserRoutes extends App with PlayJsonSupport {
 
   val userDBService = new UserDataDBService
 
-  val route ={
+  val route = {
     path("register-user") {
       (post & entity(as[UserRequest])) { userRequest =>
         val userId = userDBService.addUsers(
@@ -27,7 +27,7 @@ object UserRoutes extends App with PlayJsonSupport {
         complete("done")
       }
     }
-      }
+  }
 
   val bindingFuture = Http().bindAndHandle(route, "localhost", 8000)
   println(s"Server online at http://localhost:8000/\nPress RETURN to stop...")
