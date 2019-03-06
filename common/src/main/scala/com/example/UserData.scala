@@ -9,7 +9,8 @@ case class UserData(name: String,
                     email: String,
                     token: String,
                     token_gen: Timestamp,
-                    token_exp: Timestamp
+                    token_exp: Timestamp,
+                    uid :Int
                    )
 
 object UserData extends SQLSyntaxSupport[UserData] {
@@ -21,7 +22,8 @@ object UserData extends SQLSyntaxSupport[UserData] {
     "^password$" -> "password",
     "^email$" -> "email",
     "^token_gen$" -> "token_gen",
-    "^token_exp$" -> "token_exp"
+    "^token_exp$" -> "token_exp",
+    "^uid$"-> "uid"
   )
 
   def apply(e: SyntaxProvider[UserData])(rs: WrappedResultSet): UserData = apply(e.resultName)(rs)
@@ -29,7 +31,7 @@ object UserData extends SQLSyntaxSupport[UserData] {
   def apply(e: ResultName[UserData])(rs: WrappedResultSet): UserData =
     new UserData(name = rs.string(e.name), password = rs.string(e.password),
       email = rs.string(e.email), token = rs.string(e.token), token_gen = rs.timestamp(e.token_gen),
-      token_exp = rs.timestamp(e.token_exp))
+      token_exp = rs.timestamp(e.token_exp),uid = rs.int(e.uid))
 }
 
 

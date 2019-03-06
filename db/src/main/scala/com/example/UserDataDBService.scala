@@ -18,8 +18,10 @@ class UserDataDBService {
     val token_gen = new Timestamp(calendar.getTime.getTime)
     calendar.add(Calendar.MINUTE, 30)
     val token_exp = new Timestamp(calendar.getTime.getTime)
+    val user = UserData.column
     withSQL {
-      insert.into(UserData).values(name, password, email, token, token_gen, token_exp)
+      insert.into(UserData).columns(user.name,user.password,user.email,user.token,user.token_gen,user.token_exp)
+        .values(name, password, email, token, token_gen, token_exp)
     }.update().apply()
     token
   }
@@ -47,12 +49,11 @@ class UserDataDBService {
           UserData.column.token_exp -> token_exp
         ).where.eq(UserData.column.name, name)
       }.update.apply()
-      Option(token_exp.toString)
+      Option(token.toString)
     }
-    else {
-      Option("user Name or password Invalid")
-
+    else{
+      Option("Invalid UserName or Password")
     }
   }
-}
 
+}

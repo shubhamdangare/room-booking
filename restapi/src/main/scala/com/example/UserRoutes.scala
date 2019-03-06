@@ -20,8 +20,8 @@ object UserRoutes extends App with PlayJsonSupport {
     get {
       path("sign-in") {
         parameters('name.as[String],'pass.as[String]) { (name,pass) => {
-          val user = userDBService.signInUser(name,pass)
-          complete(user.toString)
+          val tokenId = userDBService.signInUser(name,pass).getOrElse("Invalid UserName or Password")
+          complete(TokenResponse(tokenId))
          }
         }
       }
@@ -33,6 +33,10 @@ object UserRoutes extends App with PlayJsonSupport {
           userRequest.email
         )
         complete(TokenResponse(tokenId))
+      }
+    } ~ path("booking") {
+      (post & entity(as[UserRequest])) { userRequest =>
+        complete(TokenResponse("done"))
       }
     }
   }
