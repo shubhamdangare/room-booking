@@ -2,7 +2,7 @@ package com.example
 
 import play.api.libs.json.{Json, OWrites}
 
-case class TokenResponse(token: String)
+case class TokenResponse(response: String)
 
 object TokenResponse {
 

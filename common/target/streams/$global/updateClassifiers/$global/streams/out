@@ -135,7 +135,6 @@
 [debug] == resolving dependencies com.example#common$sources;0.1.0-SNAPSHOT->com.typesafe#config;1.3.2 [compile->master]
 [debug] == resolving dependencies com.example#common$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-stream_2.12;2.5.11 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-stream_2.12;2.5.11 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] no default cache defined: set to /home/shubham/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream_2.12;2.5.11
 [debug] 	found com.typesafe.akka#akka-stream_2.12;2.5.11 in sbt-chain
 [debug] 	[2.5.11] com.typesafe.akka#akka-stream_2.12;2.5.11
@@ -5331,48 +5330,144 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.8!jackson-datatype-jsr310.jar(src)
+[debug] no default ivy user dir defined: set to /home/shubham/.ivy2
 [debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation_2.12;3.3.2!scalikejdbc-interpolation_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/shubham/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.7!akka-http_2.12.jar(src)
+[debug] no default ivy user dir defined: set to /home/shubham/.ivy2
+[debug] no default ivy user dir defined: set to /home/shubham/.ivy2
 [debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.8.4!mockito-all.jar(src)
+[debug] no default ivy user dir defined: set to /home/shubham/.ivy2
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/shubham/.ivy2/cache
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default ivy user dir defined: set to /home/shubham/.ivy2
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /home/shubham/.ivy2/cache
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/shubham/.ivy2/cache
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/shubham/.ivy2/cache
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] no default cache defined: set to /home/shubham/.ivy2/cache
+[debug] no default cache defined: set to /home/shubham/.ivy2/cache
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] settings loaded (46ms)
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] 	default cache: /home/shubham/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.7.1!play-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-spray-json_2.12;10.1.7!akka-http-spray-json_2.12.jar(src)
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.2!config.jar(src)
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (84ms)
+[debug] 	default cache: /home/shubham/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] 	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.5!spray-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.11!akka-stream_2.12.jar(src)
 [debug] 	[NOT REQUIRED] de.heikoseeberger#akka-http-play-json_2.12;1.20.0!akka-http-play-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
+[debug] settings loaded (88ms)
+[debug] 	default cache: /home/shubham/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.7!akka-http-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-core_2.12;3.3.2!scalikejdbc-core_2.12.jar(src)
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.11!akka-protobuf_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
+[debug] including url: jar:file:/home/shubham/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.7.1!play-functional_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc_2.12;3.3.2!scalikejdbc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
-[debug] 	[NOT REQUIRED] joda-time#joda-time;2.10.1!joda-time.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
+[debug] settings loaded (70ms)
+[debug] 	default cache: /home/shubham/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (94ms)
+[debug] 	default cache: /home/shubham/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.8!jackson-datatype-jdk8.jar(src)
+[debug] settings loaded (91ms)
+[debug] 	default cache: /home/shubham/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.7!akka-parsing_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.8!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-core_2.12;3.3.2!scalikejdbc-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.2!scalikejdbc-interpolation-macro_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.8!jackson-annotations.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.2!scalikejdbc-interpolation-macro_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 804ms :: artifacts dl 15ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.10.1!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar(src)
+[debug] :: resolution report :: resolve 1535ms :: artifacts dl 150ms
 [debug] 	report for com.example#common$sources;0.1.0-SNAPSHOT compile produced in /home/shubham/Desktop/work/projects/RoomAllocation/common/target/scala-2.12/resolution-cache/reports/com.example-common$sources-compile.xml
 [debug] 	report for com.example#common$sources;0.1.0-SNAPSHOT runtime produced in /home/shubham/Desktop/work/projects/RoomAllocation/common/target/scala-2.12/resolution-cache/reports/com.example-common$sources-runtime.xml
 [debug] 	report for com.example#common$sources;0.1.0-SNAPSHOT test produced in /home/shubham/Desktop/work/projects/RoomAllocation/common/target/scala-2.12/resolution-cache/reports/com.example-common$sources-test.xml
@@ -5384,4 +5479,4 @@
 [debug] 	report for com.example#common$sources;0.1.0-SNAPSHOT plugin produced in /home/shubham/Desktop/work/projects/RoomAllocation/common/target/scala-2.12/resolution-cache/reports/com.example-common$sources-plugin.xml
 [debug] 	report for com.example#common$sources;0.1.0-SNAPSHOT pom produced in /home/shubham/Desktop/work/projects/RoomAllocation/common/target/scala-2.12/resolution-cache/reports/com.example-common$sources-pom.xml
 [debug] 	report for com.example#common$sources;0.1.0-SNAPSHOT scala-tool produced in /home/shubham/Desktop/work/projects/RoomAllocation/common/target/scala-2.12/resolution-cache/reports/com.example-common$sources-scala-tool.xml
-[debug] 	resolve done (804ms resolve - 15ms download)
+[debug] 	resolve done (1535ms resolve - 150ms download)

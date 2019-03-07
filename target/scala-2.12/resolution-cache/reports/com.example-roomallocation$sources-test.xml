@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190305101447"/>
+		date="20190306174643"/>
 	<dependencies>
 		<module organisation="org.scalikejdbc" name="scalikejdbc_2.12">
 			<revision name="3.3.2" status="release" pubdate="20181220191949" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalikejdbc.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">

@@ -4,7 +4,7 @@
 		module="roomallocation$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190305101447"
+		publication="20190306174643"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
