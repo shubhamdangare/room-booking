@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="knoldus" name="com.example.MemberSpec" tests="1" errors="1" failures="0" skipped="0" time="0.393" timestamp="2019-03-10T11:11:24">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib:/usr/lib32:/lib/i386-linux-gnu:/lib32:/usr/lib/i386-linux-gnu:/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib/x86_64-linux-gnu/mesa:/usr/lib/x86_64-linux-gnu/mesa-egl"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/><property name="java.vm.version" value="25.201-b09"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="IN"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/shubham/Desktop/work/projects/RoomAllocation"/><property name="java.runtime.version" value="1.8.0_201-b09"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-2072214450/jna9080791560063731482.tmp"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="4.4.0-142-generic"/><property name="user.home" value="/home/shubham"/><property name="user.timezone" value="Asia/Kolkata"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="user.name" value="shubham"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar test"/><property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_201"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="com.example.MemberSpec" name="count all records" time="0.393">
+                                                 <error message="Table 'Dwag.UserData' doesn't exist" type="com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException">com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'Dwag.UserData' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.Util.getInstance(Util.java:384)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3494)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1960)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2114)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2696)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2105)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2264)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)
+	at scalikejdbc.DBConnectionAttributesWiredPreparedStatement.executeQuery(DBConnectionAttributesWiredPreparedStatement.scala:64)
+	at scalikejdbc.StatementExecutor.$anonfun$executeQuery$1(StatementExecutor.scala:396)
+	at scalikejdbc.StatementExecutor$NakedExecutor.apply(StatementExecutor.scala:22)
+	at scalikejdbc.StatementExecutor$$anon$1.scalikejdbc$StatementExecutor$LoggingSQLAndTiming$$super$apply(StatementExecutor.scala:376)
+	at scalikejdbc.StatementExecutor$LoggingSQLAndTiming.apply(StatementExecutor.scala:320)
+	at scalikejdbc.StatementExecutor$LoggingSQLAndTiming.apply$(StatementExecutor.scala:306)
+	at scalikejdbc.StatementExecutor$$anon$1.scalikejdbc$StatementExecutor$LoggingSQLIfFailed$$super$apply(StatementExecutor.scala:376)
+	at scalikejdbc.StatementExecutor$LoggingSQLIfFailed.apply(StatementExecutor.scala:353)
+	at scalikejdbc.StatementExecutor$LoggingSQLIfFailed.apply$(StatementExecutor.scala:352)
+	at scalikejdbc.StatementExecutor$$anon$1.apply(StatementExecutor.scala:376)
+	at scalikejdbc.StatementExecutor.executeQuery(StatementExecutor.scala:396)
+	at scalikejdbc.DBSession.$anonfun$single$1(DBSession.scala:261)
+	at scalikejdbc.LoanPattern.using(LoanPattern.scala:18)
+	at scalikejdbc.LoanPattern.using$(LoanPattern.scala:16)
+	at scalikejdbc.ActiveSession.using(DBSession.scala:837)
+	at scalikejdbc.DBSession.single(DBSession.scala:260)
+	at scalikejdbc.DBSession.single$(DBSession.scala:258)
+	at scalikejdbc.ActiveSession.single(DBSession.scala:837)
+	at scalikejdbc.DBSessionWrapper.$anonfun$single$1(DBSessionWrapper.scala:46)
+	at scalikejdbc.DBSessionWrapper.$anonfun$withAttributesSwitchedDBSession$1(DBSessionWrapper.scala:34)
+	at scalikejdbc.DBSessionAttributesSwitcher.withSwitchedDBSession(DBSessionAttributesSwitcher.scala:31)
+	at scalikejdbc.DBSessionWrapper.withAttributesSwitchedDBSession(DBSessionWrapper.scala:33)
+	at scalikejdbc.DBSessionWrapper.single(DBSessionWrapper.scala:46)
+	at scalikejdbc.SQLToOption.result(SQL.scala:982)
+	at scalikejdbc.SQLToOption.result$(SQL.scala:980)
+	at scalikejdbc.SQLToOptionImpl.result(SQL.scala:998)
+	at scalikejdbc.SQLToOptionImpl.result(SQL.scala:998)
+	at scalikejdbc.SQLToResult.$anonfun$apply$21(SQL.scala:811)
+	at scalikejdbc.DBConnection.readOnly(DBConnection.scala:211)
+	at scalikejdbc.DBConnection.readOnly$(DBConnection.scala:209)
+	at scalikejdbc.DB.readOnly(DB.scala:60)
+	at scalikejdbc.DB$.$anonfun$readOnly$1(DB.scala:174)
+	at scalikejdbc.LoanPattern.using(LoanPattern.scala:18)
+	at scalikejdbc.LoanPattern.using$(LoanPattern.scala:16)
+	at scalikejdbc.DB$.using(DB.scala:139)
+	at scalikejdbc.DB$.readOnly(DB.scala:173)
+	at scalikejdbc.SQLToResult.apply(SQL.scala:814)
+	at scalikejdbc.SQLToResult.apply$(SQL.scala:805)
+	at scalikejdbc.SQLToOptionImpl.apply(SQL.scala:998)
+	at com.example.UserDataDBService.getNumberOfUser(UserDataDBService.scala:87)
+	at com.example.MemberSpec$$anon$1.delayedEndpoint$com$example$MemberSpec$$anon$1$1(UserDataDBServiceSpec.scala:10)
+	at com.example.MemberSpec$$anon$1$delayedInit$body.apply(UserDataDBServiceSpec.scala:9)
+	at com.example.MemberSpec$$anon$1.delayedInit(UserDataDBServiceSpec.scala:9)
+	at com.example.MemberSpec$$anon$1.&lt;init&gt;(UserDataDBServiceSpec.scala:9)
+	at com.example.MemberSpec.$anonfun$new$1(UserDataDBServiceSpec.scala:9)
+</error>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,5 +1,4 @@
 package com.example
-
 import java.sql.Timestamp
 
 import scalikejdbc._

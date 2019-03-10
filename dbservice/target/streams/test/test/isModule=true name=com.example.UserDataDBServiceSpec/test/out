@@ -1,0 +1,24 @@
+[0m[[0m[0minfo[0m] [0m[0mUserDataDBServiceSpec[0m
+[0m[[0m[31merror[0m] [0m[0m[31m![0m Member should create a new record[0m
+[0m[[0m[31merror[0m] [0m[0m java.lang.IllegalStateException: Connection pool is not yet initialized.(name:'default) (ConnectionPool.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.ConnectionPool$.ensureInitialized(ConnectionPool.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.ConnectionPool$.borrow(ConnectionPool.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.specs2.AutoRollbackLike.db(AutoRollbackLike.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.specs2.AutoRollbackLike.db$(AutoRollbackLike.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.UserDataDBServiceSpec$$anon$1.db(UserDataDBServiceSpec.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.specs2.AutoRollbackLike.$init$(AutoRollbackLike.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.UserDataDBServiceSpec$$anon$1.<init>(UserDataDBServiceSpec.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.UserDataDBServiceSpec$.$anonfun$new$1(UserDataDBServiceSpec.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m![0m Member should ... [0m
+[0m[[0m[31merror[0m] [0m[0m java.lang.IllegalStateException: Connection pool is not yet initialized.(name:'default) (ConnectionPool.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.ConnectionPool$.ensureInitialized(ConnectionPool.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.ConnectionPool$.borrow(ConnectionPool.scala:252)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.specs2.AutoRollbackLike.db(AutoRollbackLike.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.specs2.AutoRollbackLike.db$(AutoRollbackLike.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.UserDataDBServiceSpec$$anon$2.db(UserDataDBServiceSpec.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.specs2.AutoRollbackLike.$init$(AutoRollbackLike.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.UserDataDBServiceSpec$$anon$2.<init>(UserDataDBServiceSpec.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.UserDataDBServiceSpec$.$anonfun$new$2(UserDataDBServiceSpec.scala:17)[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification UserDataDBServiceSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 268 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m2 examples, 0 failure, 2 errors[0m[0m

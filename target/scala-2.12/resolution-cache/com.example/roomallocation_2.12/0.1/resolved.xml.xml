@@ -4,7 +4,7 @@
 		module="roomallocation_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190304171712"
+		publication="20190310110008"
 	>
 		<description>
 		RoomAllocation
@@ -32,6 +32,9 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.example" name="common_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="com.example" name="dbservice_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="com.example" name="restapi_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.mockito" name="mockito-all" rev="1.8.4" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.12" conf="compile->default(compile)"/>
@@ -39,5 +42,9 @@
 		<dependency org="com.typesafe.akka" name="akka-http-spray-json_2.12" rev="10.1.7" conf="compile->default(compile)"/>
 		<dependency org="de.heikoseeberger" name="akka-http-play-json_2.12" rev="1.20.0" conf="compile->default(compile)"/>
 		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" conf="compile->default(compile)"/>
+		<dependency org="com.pauldijou" name="jwt-play-json_2.12" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="com.h2database" name="h2" rev="1.4.197" conf="compile->default(compile)"/>
+		<dependency org="org.scalikejdbc" name="scalikejdbc-test_2.12" rev="3.3.2" conf="test->default(compile)"/>
+		<dependency org="org.specs2" name="specs2-core_2.12" rev="3.8.9" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -14,6 +14,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.bouncycastle:bcprov-jdk15on:1.60:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.bouncycastle:bcpkix-jdk15on:1.60:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.pauldijou:jwt-play-json_2.12:2.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.pauldijou:jwt-json-common_2.12:2.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.pauldijou:jwt-core_2.12:2.1.0:jar" level="project" />
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.9.8:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.9.8:jar" level="project" />
@@ -54,5 +59,12 @@
     <orderEntry type="library" name="sbt: org.scalikejdbc:scalikejdbc_2.12:3.3.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:macro-compat_2.12:1.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.h2database:h2:1.4.197:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalikejdbc:scalikejdbc-test_2.12:3.3.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalaz:scalaz-core_2.12:7.2.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.scalaz:scalaz-effect_2.12:7.2.7:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-common_2.12:3.8.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-core_2.12:3.8.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-matcher_2.12:3.8.9:jar" level="project" />
   </component>
 </module>

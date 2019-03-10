@@ -4,7 +4,7 @@
 		module="db_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190310091949"
+		publication="20190310105828"
 	>
 		<description>
 		DB

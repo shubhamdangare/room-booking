@@ -1,5 +1,4 @@
 package com.example
-
 case class UserRequest(name: String, password: String, email: String)
 
 import play.api.libs.json.{Json, Reads}

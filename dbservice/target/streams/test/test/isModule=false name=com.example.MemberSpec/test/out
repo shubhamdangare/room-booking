@@ -1,0 +1,66 @@
+[0m[[0m[0minfo[0m] [0m[0mMemberSpec[0m
+[0m[[0m[31merror[0m] [0m[0m[31m![0m count all records[0m
+[0m[[0m[31merror[0m] [0m[0m com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'Dwag.UserData' doesn't exist (NativeConstructorAccessorImpl.java:-2)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0msun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.Util.handleNewInstance(Util.java:409)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.Util.getInstance(Util.java:384)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3562)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3494)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1960)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2114)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2696)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2105)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2264)[0m
+[0m[[0m[31merror[0m] [0m[0morg.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)[0m
+[0m[[0m[31merror[0m] [0m[0morg.apache.commons.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:122)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBConnectionAttributesWiredPreparedStatement.executeQuery(DBConnectionAttributesWiredPreparedStatement.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor.$anonfun$executeQuery$1(StatementExecutor.scala:396)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$NakedExecutor.apply(StatementExecutor.scala:22)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$$anon$1.scalikejdbc$StatementExecutor$LoggingSQLAndTiming$$super$apply(StatementExecutor.scala:376)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$LoggingSQLAndTiming.apply(StatementExecutor.scala:320)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$LoggingSQLAndTiming.apply$(StatementExecutor.scala:306)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$$anon$1.scalikejdbc$StatementExecutor$LoggingSQLIfFailed$$super$apply(StatementExecutor.scala:376)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$LoggingSQLIfFailed.apply(StatementExecutor.scala:353)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$LoggingSQLIfFailed.apply$(StatementExecutor.scala:352)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor$$anon$1.apply(StatementExecutor.scala:376)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.StatementExecutor.executeQuery(StatementExecutor.scala:396)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSession.$anonfun$single$1(DBSession.scala:261)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.LoanPattern.using(LoanPattern.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.LoanPattern.using$(LoanPattern.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.ActiveSession.using(DBSession.scala:837)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSession.single(DBSession.scala:260)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSession.single$(DBSession.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.ActiveSession.single(DBSession.scala:837)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSessionWrapper.$anonfun$single$1(DBSessionWrapper.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSessionWrapper.$anonfun$withAttributesSwitchedDBSession$1(DBSessionWrapper.scala:34)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSessionAttributesSwitcher.withSwitchedDBSession(DBSessionAttributesSwitcher.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSessionWrapper.withAttributesSwitchedDBSession(DBSessionWrapper.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBSessionWrapper.single(DBSessionWrapper.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToOption.result(SQL.scala:982)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToOption.result$(SQL.scala:980)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToOptionImpl.result(SQL.scala:998)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToOptionImpl.result(SQL.scala:998)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToResult.$anonfun$apply$21(SQL.scala:811)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBConnection.readOnly(DBConnection.scala:211)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DBConnection.readOnly$(DBConnection.scala:209)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DB.readOnly(DB.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DB$.$anonfun$readOnly$1(DB.scala:174)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.LoanPattern.using(LoanPattern.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.LoanPattern.using$(LoanPattern.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DB$.using(DB.scala:139)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.DB$.readOnly(DB.scala:173)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToResult.apply(SQL.scala:814)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToResult.apply$(SQL.scala:805)[0m
+[0m[[0m[31merror[0m] [0m[0mscalikejdbc.SQLToOptionImpl.apply(SQL.scala:998)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.UserDataDBService.getNumberOfUser(UserDataDBService.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.MemberSpec$$anon$1.delayedEndpoint$com$example$MemberSpec$$anon$1$1(UserDataDBServiceSpec.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.MemberSpec$$anon$1$delayedInit$body.apply(UserDataDBServiceSpec.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.MemberSpec$$anon$1.delayedInit(UserDataDBServiceSpec.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.MemberSpec$$anon$1.<init>(UserDataDBServiceSpec.scala:9)[0m
+[0m[[0m[31merror[0m] [0m[0mcom.example.MemberSpec.$anonfun$new$1(UserDataDBServiceSpec.scala:9)[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification MemberSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 632 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m1 example, 0 failure, 1 error[0m[0m

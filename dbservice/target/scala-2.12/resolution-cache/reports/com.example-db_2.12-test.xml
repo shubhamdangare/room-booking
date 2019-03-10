@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190310091952"/>
+		date="20190310105828"/>
 	<dependencies>
 		<module organisation="com.google.inject" name="guice">
 			<revision name="4.2.2" status="release" pubdate="20181029225932" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
@@ -119,7 +119,7 @@
 			</revision>
 		</module>
 		<module organisation="com.example" name="common_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190310091949" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190310105828" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.example" name="db_2.12" conf="test, compile, runtime" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>

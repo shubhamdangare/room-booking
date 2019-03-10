@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/home/shubham/Desktop/work/projects/RoomAllocation/dbservice/src/main/scala/com/example/UserDataDBService.scala:93:51: com.example.UserData#id not found. Expected fields are #name, #password, #email, #token, #token_gen, #token_exp, #uid.[0m
+[0m[[0m[31merror[0m] [0m[0m      select.from(UserData as userTable).where.eq(userTable.id, id)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shubham/Desktop/work/projects/RoomAllocation/dbservice/src/main/scala/com/example/UserDataDBService.scala:94:19: missing argument list for method apply in object UserData[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m    }.map(UserData(userTable.resultName)).single.apply()[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
