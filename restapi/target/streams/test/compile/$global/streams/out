@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/shubham/Desktop/work/projects/RoomAllocation/restapi/src/test/scala/com/example/UserRouteSpecs.scala:29:41: overloaded method value thenReturn with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Unit,x$2: Unit*)org.mockito.stubbing.OngoingStubbing[Unit] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x$1: Unit)org.mockito.stubbing.OngoingStubbing[Unit][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (scalikejdbc.ConnectionPool)[0m
+[0m[[0m[31merror[0m] [0m[0m      when(dbMock.createConnectiontoDB).thenReturn(connectionPool)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

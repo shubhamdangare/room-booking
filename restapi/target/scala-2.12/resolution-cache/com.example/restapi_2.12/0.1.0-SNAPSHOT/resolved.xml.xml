@@ -4,7 +4,7 @@
 		module="restapi_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190310105900"
+		publication="20190311102818"
 	>
 		<description>
 		restapi
@@ -48,5 +48,6 @@
 		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.1.7" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.19" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe" name="config" rev="1.2.1" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-testkit_2.12" rev="10.1.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

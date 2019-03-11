@@ -33,7 +33,8 @@ lazy val restapi = (project in file("restapi"))
   .settings(
     name := "restapi",
     libraryDependencies ++= commonDependencies ++ Seq("com.typesafe.akka" %% "akka-http" % "10.1.7",
-      "com.typesafe.akka" %% "akka-stream" % "2.5.19", "com.typesafe" % "config" % "1.2.1"
+      "com.typesafe.akka" %% "akka-stream" % "2.5.19", "com.typesafe" % "config" % "1.2.1" ,
+      "com.typesafe.akka" %% "akka-http-testkit" % "10.1.7"
     )
   )
 
