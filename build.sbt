@@ -5,8 +5,8 @@ scalaVersion in ThisBuild := "2.12.8"
 
 
 lazy val root = (project in file("."))
-  .dependsOn(common,db,restapi)
-  .aggregate(common,db,restapi)
+  .dependsOn(common,db,restapi,services)
+  .aggregate(common,db,restapi,services)
   .settings(
     name := "root",
     libraryDependencies ++= commonDependencies
@@ -26,10 +26,18 @@ lazy val db = (project in file("dbservice"))
     libraryDependencies ++= commonDependencies ++ Seq("com.google.inject" % "guice" % "4.2.2")
   )
 
+lazy val services = (project in file("services"))
+  .aggregate(db)
+  .dependsOn(db)
+  .settings(
+    name := "services",
+    libraryDependencies ++= commonDependencies  ++ Seq("javax.mail" % "mail" % "1.5.0-b01")
+  )
+
 
 lazy val restapi = (project in file("restapi"))
-  .aggregate(common, db)
-  .dependsOn(common, db)
+  .aggregate(common, db,services)
+  .dependsOn(common, db,services)
   .settings(
     name := "restapi",
     libraryDependencies ++= commonDependencies ++ Seq("com.typesafe.akka" %% "akka-http" % "10.1.7",
@@ -53,6 +61,7 @@ lazy val dependencies = new {
   val scajdbctest = "org.scalikejdbc" %% "scalikejdbc-test" % "3.3.2" % "test"
  // val spec2 = "org.specs2" % "specs2_2.11" % "3.7"
   val spec2core = "org.specs2" %% "specs2-core" % "3.8.9" % Test
+  val akkaCors = "ch.megard" %% "akka-http-cors" % "0.4.0"
 
 }
 
@@ -71,5 +80,6 @@ lazy val commonDependencies = Seq(
   dependencies.h2,
   dependencies.scajdbctest,
   //dependencies.spec2,
-  dependencies.spec2core
+  dependencies.spec2core,
+  dependencies.akkaCors
 )

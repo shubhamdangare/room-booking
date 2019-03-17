@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dbservice.iml" filepath="$PROJECT_DIR$/.idea/modules/dbservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restapi.iml" filepath="$PROJECT_DIR$/.idea/modules/restapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services.iml" filepath="$PROJECT_DIR$/.idea/modules/services.iml" />
     </modules>
   </component>
 </project>

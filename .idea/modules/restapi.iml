@@ -14,6 +14,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="common" exported="" />
+    <orderEntry type="library" name="sbt: javax.mail:mail:1.5.0-b01:jar" level="project" />
+    <orderEntry type="library" name="sbt: javax.activation:activation:1.1:jar" level="project" />
+    <orderEntry type="module" module-name="services" exported="" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http-testkit_2.12:10.1.7:jar" level="project" />
     <orderEntry type="module" module-name="dbservice" exported="" />
     <orderEntry type="library" name="sbt: org.bouncycastle:bcprov-jdk15on:1.60:jar" level="project" />
@@ -78,5 +81,6 @@
     <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-common_2.12:3.8.9:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-core_2.12:3.8.9:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="sbt: org.specs2:specs2-matcher_2.12:3.8.9:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.megard:akka-http-cors_2.12:0.4.0:jar" level="project" />
   </component>
 </module>

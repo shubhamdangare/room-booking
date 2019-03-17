@@ -9,11 +9,14 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.12/src_managed/main" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.12/src_managed/test" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: javax.mail:mail:1.5.0-b01:jar" level="project" />
+    <orderEntry type="library" name="sbt: javax.activation:activation:1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http-testkit_2.12:10.1.7:jar" level="project" />
     <orderEntry type="library" name="sbt: org.bouncycastle:bcprov-jdk15on:1.60:jar" level="project" />
     <orderEntry type="library" name="sbt: org.bouncycastle:bcpkix-jdk15on:1.60:jar" level="project" />
@@ -79,5 +82,7 @@
     <orderEntry type="library" name="sbt: javax.inject:javax.inject:1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.checkerframework:checker-compat-qual:2.0.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.codehaus.mojo:animal-sniffer-annotations:1.14:jar" level="project" />
+    <orderEntry type="library" name="sbt: ch.megard:akka-http-cors_2.12:0.4.0:jar" level="project" />
+    <orderEntry type="module" module-name="services" exported="" />
   </component>
 </module>

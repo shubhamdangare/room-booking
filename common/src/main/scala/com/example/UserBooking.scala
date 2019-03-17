@@ -3,7 +3,7 @@ package com.example
 
 import scalikejdbc._
 
-case class UserBooking(bid: Int, uid: Int, rid: Int, bookingTime: String)
+case class UserBooking(bid: String, uid: String, rid: String, bookingTime: String)
 
 
 object UserBooking extends SQLSyntaxSupport[UserBooking] {
@@ -21,5 +21,6 @@ object UserBooking extends SQLSyntaxSupport[UserBooking] {
   def apply(e: SyntaxProvider[UserBooking])(rs: WrappedResultSet): UserBooking = apply(e.resultName)(rs)
 
   def apply(e: ResultName[UserBooking])(rs: WrappedResultSet): UserBooking =
-    new UserBooking(bid = rs.int(e.bid), uid = rs.int(e.uid), rid = rs.int(e.rid), bookingTime = rs.string(e.bookingTime))
+    new UserBooking(bid = rs.string(e.bid), uid = rs.string(e.uid), rid = rs.string(e.rid),
+      bookingTime = rs.string(e.bookingTime))
 }

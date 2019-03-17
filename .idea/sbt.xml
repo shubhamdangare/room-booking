@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/dbservice" />
             <option value="$PROJECT_DIR$/project" />
             <option value="$PROJECT_DIR$/restapi" />
+            <option value="$PROJECT_DIR$/services" />
           </set>
         </option>
         <option name="sbtVersion" value="1.2.8" />

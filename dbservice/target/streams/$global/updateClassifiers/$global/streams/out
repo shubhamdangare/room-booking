@@ -78,6 +78,21 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: ch.megard#akka-http-cors_2.12;0.4.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: ch.megard#akka-http-cors_2.12;0.4.0
+[debug] 	found ch.megard#akka-http-cors_2.12;0.4.0 in sbt-chain
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-http_2.12;10.1.7 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http_2.12;10.1.7
@@ -702,6 +717,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
@@ -1171,6 +1198,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
@@ -1644,6 +1683,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
@@ -2117,6 +2168,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
@@ -2612,6 +2675,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test->compile(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test->compile]
@@ -3177,6 +3252,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
@@ -3648,6 +3735,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile-internal->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile-internal->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile-internal->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile-internal->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile-internal->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile-internal->compile]
@@ -4121,6 +4220,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
@@ -4590,6 +4701,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
@@ -5060,6 +5183,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime-internal->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime-internal->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime-internal->compile]
@@ -5534,6 +5669,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [compile->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [compile->compile]
@@ -6003,6 +6150,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.h2database#h2;1.4.197 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [runtime->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [runtime->compile]
@@ -6492,6 +6651,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test->compile(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test->compile]
@@ -7051,6 +7222,18 @@
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->org.scalactic#scalactic_2.12;3.0.5 [test-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->default]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->default(compile)]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->runtime]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->compile]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->master]
+[debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->ch.megard#akka-http-cors_2.12;0.4.0 [test-internal->master]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test-internal->compile]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#dbservice$sources;0.1.0-SNAPSHOT->com.typesafe.akka#akka-http_2.12;10.1.7 [test-internal->compile]
@@ -7597,6 +7780,7 @@
 [debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.h2database#h2;1.4.197!h2.jar(src)
+[debug] 	[NOT REQUIRED] ch.megard#akka-http-cors_2.12;0.4.0!akka-http-cors_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http_2.12;10.1.7!akka-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.mockito#mockito-all;1.8.4!mockito-all.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
@@ -7625,8 +7809,8 @@
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.7.1!play-functional_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc_2.12;3.3.2!scalikejdbc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.pauldijou#jwt-play-json_2.12;2.1.0!jwt-play-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.11!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.pauldijou#jwt-play-json_2.12;2.1.0!jwt-play-json_2.12.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.10.1!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;4.2.2!guice.jar(src)
@@ -7639,23 +7823,23 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-pool2;2.6.0!commons-pool2.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.8!jackson-annotations.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
-[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.2!scalikejdbc-interpolation-macro_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-dbcp2;2.5.0!commons-dbcp2.jar(src)
+[debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-interpolation-macro_2.12;3.3.2!scalikejdbc-interpolation-macro_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.pauldijou#jwt-json-common_2.12;2.1.0!jwt-json-common_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.8.0!scala-java8-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;3.8.9!specs2-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;3.8.9!specs2-matcher_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;3.8.9!specs2-matcher_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.12;7.2.7!scalaz-effect_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.12;7.2.7!scalaz-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;3.8.9!specs2-common_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalikejdbc#scalikejdbc-test_2.12;3.3.2!scalikejdbc-test_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;3.8.9!specs2-common_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 851ms :: artifacts dl 22ms
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
+[debug] :: resolution report :: resolve 1252ms :: artifacts dl 37ms
 [debug] 	report for com.example#dbservice$sources;0.1.0-SNAPSHOT compile produced in /home/shubham/Desktop/work/projects/RoomAllocation/dbservice/target/scala-2.12/resolution-cache/reports/com.example-dbservice$sources-compile.xml
 [debug] 	report for com.example#dbservice$sources;0.1.0-SNAPSHOT runtime produced in /home/shubham/Desktop/work/projects/RoomAllocation/dbservice/target/scala-2.12/resolution-cache/reports/com.example-dbservice$sources-runtime.xml
 [debug] 	report for com.example#dbservice$sources;0.1.0-SNAPSHOT test produced in /home/shubham/Desktop/work/projects/RoomAllocation/dbservice/target/scala-2.12/resolution-cache/reports/com.example-dbservice$sources-test.xml
@@ -7667,4 +7851,4 @@
 [debug] 	report for com.example#dbservice$sources;0.1.0-SNAPSHOT plugin produced in /home/shubham/Desktop/work/projects/RoomAllocation/dbservice/target/scala-2.12/resolution-cache/reports/com.example-dbservice$sources-plugin.xml
 [debug] 	report for com.example#dbservice$sources;0.1.0-SNAPSHOT pom produced in /home/shubham/Desktop/work/projects/RoomAllocation/dbservice/target/scala-2.12/resolution-cache/reports/com.example-dbservice$sources-pom.xml
 [debug] 	report for com.example#dbservice$sources;0.1.0-SNAPSHOT scala-tool produced in /home/shubham/Desktop/work/projects/RoomAllocation/dbservice/target/scala-2.12/resolution-cache/reports/com.example-dbservice$sources-scala-tool.xml
-[debug] 	resolve done (851ms resolve - 22ms download)
+[debug] 	resolve done (1252ms resolve - 37ms download)
