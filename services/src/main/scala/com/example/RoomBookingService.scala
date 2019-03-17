@@ -16,7 +16,7 @@ class RoomBookingService(roomBook: RoomBookingDBService, user: UserDataDBLayer) 
 
   def roomBooking(roomID: String, userId: String, bookingTime: String): Future[Either[BookingError, UserRequestBooking]] = Future {
 
-    if (roomBook.getRoom(roomID) == 0) {
+    if (roomBook.getCount(roomID) == 0) {
       Left(RoomAlreadyBooked)
     }
     else {

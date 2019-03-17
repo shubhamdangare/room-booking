@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/shubham/Desktop/work/projects/RoomAllocation/services/src/main/scala/com/example/RoomBookingService.scala:19:34: Option[com.example.UserBooking] and Int are unrelated: they will most likely never compare equal[0m
+[0m[[0m[33mwarn[0m] [0m[0m    if (roomBook.getRoom(roomID) == 0) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

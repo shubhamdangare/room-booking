@@ -2,6 +2,7 @@ package com.example
 
 import java.util.UUID
 
+import com.example.UserService.SignInError.InvalidCredentials
 import com.example.UserService.{SignInError, SignUpError}
 import scalikejdbc.AutoSession
 
@@ -29,10 +30,9 @@ class UserService(userDB: UserDataDBLayer) {
 
   def signInUser(email: String, password: String): Future[Either[SignInError, UserData]] = Future {
     val userData = userDB.get(email, password)
-    println(userData)
     userData match {
       case Some(value) => Right(value)
-      case None => Left(SignInError.InvalidCredentials)
+      case _ => Left(InvalidCredentials)
     }
   }
 

@@ -18,4 +18,6 @@ import scalikejdbc.ConnectionPool
 class UserRouteSpecs extends WordSpec with PlayJsonSupport with MockitoSugar with ScalatestRouteTest with Matchers {
 
 
+
+
 }

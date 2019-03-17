@@ -4,7 +4,7 @@
 		module="services$sources"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190317101625"
+		publication="20190317122658"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

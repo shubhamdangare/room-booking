@@ -1,12 +1,4 @@
 [0m[[0m[0minfo[0m] [0m[0mUserDataDBServiceSpec[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m count all records[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m get user data[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m check room booked already[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m check is booking is not empty[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m check is booked room is deallocated[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m covert time stamp[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m room booking for limited time[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m+[0m user not registered[0m
 [0m[[0m[0minfo[0m] [0m[0mTotal for specification UserDataDBServiceSpec[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 1 second, 266 ms[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m8 examples, 0 failure, 0 error[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 197 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m0 example, 0 failure, 0 error[0m[0m
